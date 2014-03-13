@@ -9,7 +9,6 @@
     this.visible = this.$target.hasClass('visible');
   }
   
-  // TODO: add transition
   Collapse.prototype.toggle = function(){
    this.$target.toggleClass('visible'); 
   }
