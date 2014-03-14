@@ -36,19 +36,21 @@ legend {
   @include remove-active-glow;
   border: 0px none transparent;
   font-size: 120%;
-}
-
-.button:hover {
+  
+  &:hover {
   background-color: $darken-brand-color;
   color: #ffffff;
   text-decoration: none;
-}
+  }
 
-.button:active {
+  &:active {
   position:relative;
   top:1px;
   color: #ffffff;
+  }
+
 }
+
 
 a.button:visited {
   color: #ffffff;
